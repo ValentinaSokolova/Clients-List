@@ -1,0 +1,159 @@
+@media (max-width: 1023px) {
+    .main-container {
+        padding: 0;
+    }
+
+    .header-container {
+        padding: 20px 0px 17px 0px;
+    }
+    
+    /*header*/
+
+
+
+    /*table*/
+
+    .table {
+        margin-bottom: 13px;
+    }
+
+    .actions-contain {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn-change {
+        margin: 0;
+        padding: 0;
+        padding-left: 13px;
+    }
+
+    .btn-delete {
+        padding: 0;
+    }
+
+    .client-title{
+        margin-bottom: 12px;
+    }
+    .tnumber {
+        word-break: break-all;
+    }
+
+    .createDate-col{
+        width: 118px;
+    }
+
+    .lastChanges-col {
+        padding-bottom: 17px;
+    }
+
+    .id-col {
+        width: 99px;
+    }
+
+    .name-col {
+        width: 346px;
+    }
+
+    .actions-col {
+        width: 106px;
+    }
+
+    .contacts-col {
+        width: 206px;
+    }
+
+    /*modal*/
+
+    .delete-content .cancel-btn {
+        left: auto;
+    }
+    /*add*/
+
+    .add-client {
+        align-self: center;
+        position: inherit;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .header-form {
+        display: none;
+}
+
+    .header-logo {
+        margin: 0 auto;
+
+}
+    .header-logo-img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .header-container {
+        padding: 10px 0 10px 0;
+    }
+
+/*main*/
+    .client-title {
+        font-size: 18px;
+    }
+
+    .main-container {
+        overflow-x: scroll;
+    }
+
+/*add*/
+    .add-client-btn {
+        position: fixed;
+        left: 56px;
+        bottom: 109px;
+        top: auto;
+    }
+
+/*modal*/
+    .add-content {
+        padding: 26px 20px 21px 29px;
+        width: 300px;
+        min-height: 400px;
+    }
+
+    .contacts-list-input {
+        width: 300px;
+    }
+
+    .save-btn {
+        left: 49px;
+    }
+
+    .cancel-btn {
+        left:100px;
+    }
+
+    .modal-select {
+        width: 110px;
+        background-position: 90px center;
+    }
+
+    .contact-details {
+        width: 129px;
+    }
+
+
+    .change-content {
+        width: 300px;
+    }
+
+    .change-id {
+        top: auto;
+        right: auto;
+    }
+
+    .delete-content {
+        width: 300px;
+    }
+
+
+
+}
